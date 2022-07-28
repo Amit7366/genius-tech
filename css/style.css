@@ -1,0 +1,25 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+/* google font */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+.banner-slider{
+    height: 60vh;
+}
+.banner-item{
+    background-image: url('../images/cover/cover-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
