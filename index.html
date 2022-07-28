@@ -12,6 +12,12 @@
       crossorigin="anonymous"
     />
     <!-- bootstrap css -->
+    <!-- fontawesome kit -->
+    <script
+      src="https://kit.fontawesome.com/07e6bb2c30.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome kit -->
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- custom css -->
@@ -358,7 +364,7 @@
                   </div>
                 </div>
                 <div class="row mt-2">
-                  <div class="col-2 mx-auto">
+                  <div class="col-3 mx-auto">
                     <a
                       href="# "
                       class="btn btn-info text-white d-inline-block px-4"
@@ -422,78 +428,177 @@
       <!-- register section -->
       <section id="register">
         <div class="container bg-info">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 p-5 text-white text-center text-sm-center text-md-center text-lg-start">
-                    <h3>Ready to join?</h3>
-                    <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-                    <a href="#" class="d-inline-block btn btn-info px-4 bg-white text-info">Register Now</a>
-                </div>
+          <div class="row">
+            <div
+              class="col-12 col-md-6 col-lg-6 p-5 text-white text-center text-sm-center text-md-center text-lg-start"
+            >
+              <h3>Ready to join?</h3>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
             </div>
+            <div
+              class="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center"
+            >
+              <!-- <a href="#" class="d-inline-block btn btn-info px-4 bg-white text-info">Register Now</a> -->
+
+              <button
+                type="button"
+                class="d-inline-block btn btn-info px-4 bg-white text-info"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Register Now
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Join Our Community
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Welcome to Genius It. Genius It (“us”, “we”, or “our”)
+                        operates geniusandro.com (hereinafter referred to as
+                        “Service”). Our Privacy Policy governs your visit to
+                        geniusandro.com, and explains how we collect, safeguard
+                        and disclose information that results from your use of
+                        our Service. We use your data to provide and improve
+                        Service. By using Service, you agree to the collection
+                        and use of information in accordance with this policy.
+                        Unless otherwise defined in this Privacy Policy, the
+                        terms used in this Privacy Policy have the same meanings
+                        as in our Terms and Conditions. Our Terms and Conditions
+                        (“Terms”) govern all use of our Service and together
+                        with the Privacy Policy constitutes your agreement with
+                        us (“agreement”).
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Agree
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+          </div>
         </div>
       </section>
       <!-- register section -->
       <!-- team section -->
       <section id="team" class="my-2">
         <div class="container text-center">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
-              <div class="col">
-                <div class="card">
-                    <img src="images/student/student-1.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-start text-sm-center text-md-start text-lg-start">
-                      <h5 class="card-title">Awlad Hossain</h5>
-                      <p class="card-text">UIUX Designer</p>
-                      
-                    </div>
-                  </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/student/student-1.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div
+                  class="card-body text-start text-sm-center text-md-start text-lg-start"
+                >
+                  <h5 class="card-title">Awlad Hossain</h5>
+                  <p class="card-text">UIUX Designer</p>
+                </div>
               </div>
-              <div class="col">
-                <div class="card">
-                    <img src="images/student/student-2.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-start">
-                      <h5 class="card-title">Awlad Hossain</h5>
-                      <p class="card-text">UIUX Designer</p>
-                      
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                    <img src="images/student/student-3.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-start">
-                      <h5 class="card-title">Awlad Hossain</h5>
-                      <p class="card-text">UIUX Designer</p>
-                      
-                    </div>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                    <img src="images/student/student-4.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-start">
-                      <h5 class="card-title">Awlad Hossain</h5>
-                      <p class="card-text">UIUX Designer</p>
-                      
-                    </div>
-                  </div>
-              </div>
-              
             </div>
-            <div class="row mt-2">
-                <div class="col-3 mx-auto">
-                    <a
-                      href="# "
-                      class="btn btn-info text-white d-inline-block px-4"
-                      >View All</a
-                    >
-                  </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/student/student-2.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body text-start">
+                  <h5 class="card-title">Awlad Hossain</h5>
+                  <p class="card-text">UIUX Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/student/student-3.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body text-start">
+                  <h5 class="card-title">Awlad Hossain</h5>
+                  <p class="card-text">UIUX Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/student/student-4.png"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body text-start">
+                  <h5 class="card-title">Awlad Hossain</h5>
+                  <p class="card-text">UIUX Designer</p>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="row mt-2">
+            <div class="col-3 mx-auto">
+              <a href="# " class="btn btn-info text-white d-inline-block px-4"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
       </section>
       <!-- team section -->
+      <!-- testimonial section -->
+      <section id="testimonial" class="my-2">
+        <div class="container">
+          <div class="row text-center">
+            <h3>Some Students Feedback</h3>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-12"></div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section -->
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
