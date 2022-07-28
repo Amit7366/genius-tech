@@ -19,8 +19,6 @@ ul {
 .banner-slider {
   height: 60vh;
 }
-.banner-item {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.overlay-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
 }
